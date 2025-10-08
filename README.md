@@ -1,4 +1,4 @@
-# Plant Disease Classification Using Convolutional Neural Networks
+# Plant Disease Classification Using Deep Learning
 ---
 
 ## Objectives
@@ -31,32 +31,7 @@ For this project, only the **Potato Leaf Subset** is used, containing images cat
 
 ## Model Architecture
 
-The proposed model is based on a **Sequential CNN architecture** developed using **TensorFlow and Keras**.  
-The architecture includes:
-
-1. **Input Layer**  
-   - Image input size: `256×256×3`  
-   - Rescaling and normalization  
-
-2. **Data Augmentation Block**  
-   - Random rotations, flips, and zooms to prevent overfitting  
-
-3. **Convolutional Layers**  
-   - Multiple convolutional blocks using `Conv2D` with ReLU activation  
-
-4. **Pooling Layers**  
-   - `MaxPooling2D` layers for dimensionality reduction  
-
-5. **Flatten Layer**  
-   - Converts feature maps into a 1D vector  
-
-6. **Fully Connected (Dense) Layers**  
-   - Hidden layers with ReLU activation for feature learning  
-
-7. **Output Layer**  
-   - `Dense` layer with `softmax` activation (3 output classes)  
-
----
+The proposed model is based on a **Sequential CNN architecture** developed using **TensorFlow and Keras**. 
 
 ## ⚙️ Model Training Configuration
 
